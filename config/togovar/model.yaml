@@ -1,0 +1,65 @@
+- Snv hco_12_grch37:112241766-G-A:
+  - a: obo:SO_0001483 # SNV
+  - faldo:location:
+    - []:
+      - faldo:position:
+        - position: 112241766
+      - faldo:reference:
+        - hco: hco12:GRCh37
+  - med2rdf:alternative_allele:
+    - alternative_allele: "A"
+  - med2rdf:alternative_allele_vcf:
+    - alternative_allele_vcf: "A"
+  - med2rdf:referece_allele_vcf:
+    - reference_allele_vcf: "G"
+  - med2rdf:reference_allele:
+    - reference_allele: "G"
+  - dct:identifier:
+    - snv_identifier: "tgv47264307"
+  - tgvo:condition:
+    - []:
+      - a: tgvo:Annotation
+      - dct:source:
+        - dataset: "ClinVar"
+      - rdfs:seeAlso:
+        - clinvar_variation: clinvar_variation:18390 # NM_000690.4(ALDH2):c.1510G>A (p.Glu504Lys)
+  - tgvo:hasConsequence+:
+    - []:
+      - a:
+        - obo:SO_0001621 # NMD_transcript_variant
+        - obo:SO_0001624 # 3_prime_UTR_variant
+      - tgvo:gene+:
+        - nmd_transcript_variant: ensembl:ENSG00000111275 # ALDH2
+        - nmd_transcript_variant: ensembl:404
+      - tgvo:transcript:
+        - nmd_transcript_variant: ensembl_transcript:ENST00000548536
+      - rdfs:label+:
+        - nmd_transcript_variant_bnode_label: "12:g.112241766G>A"
+    - []:
+      - a: obo:SO_0001583 # missense_variant
+      - tgvo:polyphen:
+        - missense_variant: 0.874
+      - tgvo:sift:
+        - missense_variant: 0.0
+      - tgvo:transcript:
+        - missense_variant: ensembl_transcript:ENST00000261733
+      - rdfs:label+:
+        - missense_variant_bnode_label: "12:g.112241766G>A"
+  - tgvo:statistics+:
+    - []:
+      - a: tgvo:Statistics
+      - dct:source:
+        - dataset: "HGVD"
+      - tgvo:alleleCount:
+        - allele_count: 451
+      - tgvo:alleleFrequency:
+        - allele_frequency: 0.2386
+      - tgvo:alleleNumber:
+        - allele_number: 1890
+      - tgvo:quality:
+        - vc_quality: 0.0
+  - rdfs:label:
+    - snv_label: "12-112241766-G-A"
+  - rdfs:seeAlso:
+    - dbsnp: dbsnp:rs671
+
