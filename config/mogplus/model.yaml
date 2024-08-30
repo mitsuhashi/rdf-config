@@ -1,0 +1,41 @@
+- Variation mco:7\/GRCm39#127254587-G-A:
+  - a: gvo:SNV
+  - a: gvo:Insertion
+  - a: gvo:Deletion
+  - a: gvo:Indel
+  - a: obo:SO_0001483 # SNV
+  - rdfs:label:
+    - variant_label: 7-127254587-G-A
+  - rdfs:seeAlso*:
+    - dbsnp: dbsnp:rs114202595
+  - faldo:location:
+    - []:
+      - a: faldo:ExactPosition # TODO: missing triple on endpoint
+      - faldo:position:
+        - position: 127254587
+      - faldo:reference:
+        - reference: mco:7/GRCm39
+  - tgv:hasConsequence+:
+    - []:
+      - a+: obo:SO_0001583 # missense_variant
+      - rdfs:label:
+        - hgvs_g: 7:g.127254587G>A
+      - rdfs:label:
+        - hgvs_p: ENSP00000344297.3:p.Arg129Trp
+      - rdfs:label:
+        - hgvs_c: ENST00000338516.3:c.385C>T
+      - tgv:gene*:
+        - hgnc: hgnc:8618
+        - ensembl_gene: Gene
+      - tgv:transcript:
+        - ensembl_transcript: enst:ENST00000338516
+      - tgv:sift?:
+        - sift: 0.0
+  - gvo:ref:
+    - reference_allle: "A"
+  - gvo:alt:
+    - alternate_allele: "G"
+  - tgv:strain*:
+    - mouse_strain: "HMIv1"
+  - tgv:orthologous_variants*:
+    - togovar_variant: hco:12\/GRCh38#111803962-G-A 

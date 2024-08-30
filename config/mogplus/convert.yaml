@@ -1,0 +1,19 @@
+Variation:
+  - source(".")
+  - $chr_mm39: tsv("GRCm39_chromosome")
+  - $pos_mm39: tsv("GRCm39_position")
+  - $mouse_strain: tsv("mouse_strain")
+  - $chr_mm38: tsv("GRCm38_chromosome")
+  - $pos_mm38: tsv("GRCm38_position")
+  - $chr_hs38: tsv("GRCh38_chromosome")
+  - $pos_hs38: tsv("GRCh38_position")
+  - $ref: tsv("GRCh38_reference")
+  - $alt: tsv("GRCh38_alternate")
+  - "http://identifiers.org/mco/$chr_mm39/GRCm39#$pos_mm39-$ref-$alt"
+  - variables:
+    - reference: "http://identifires.org/mco/$chr_mm38/GRCm38" 
+    - position: $pos_mm38
+    - mouse_strain:
+      - $mouse_strain
+    - togovar_variant:
+      - "http://identifiers.org/hco/$chr_hs38/GRCh38#$pos_hs38-$ref-$alt"
