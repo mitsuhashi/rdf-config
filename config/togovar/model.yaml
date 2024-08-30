@@ -1,4 +1,4 @@
-- Variation hco_grch38:12\/GRCh38#111803962-G-A:
+- Variation hco:12\/GRCh38#111803962-G-A:
   - a: gvo:SNV
   - a: gvo:Insertion
   - a: gvo:Deletion
@@ -18,7 +18,7 @@
   - gvo:ref:
     - reference_allele: "G"
   - gvo:alt:
-    - alternative_allele: "A"
+    - alternate_allele: "A"
   - gvo:filter*:
     - filter: "PASS"
   - gvo:qual*:
@@ -42,6 +42,8 @@
       - a: obo:SO_0001583 # missense_variant
       - tgv:gene_symbol:
         - hgnc: "ALDH2"
+      - tgv:hgnc_id:
+        - hgnc_id: "404"
       - tgv:gene_symbol_source:
         - gene_symbol_source: "HGNC"
       - tgv:hgvsc:
@@ -64,3 +66,5 @@
         - mrna: enst:ENST00000261733 # ALDH2-001
   - tgv:most_severe_consequence:
     - most_severe_consequence: obo:SO_0001583 # missense_variant
+  - tgv:orthologous_variants*:
+    - mogplus_variant: mco:7\/GRCm39#127254587-G-A 
