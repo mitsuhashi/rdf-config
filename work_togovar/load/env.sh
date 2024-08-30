@@ -1,0 +1,2 @@
+# ロードするvirtuosoが動いているコンテナ名
+export VIRT_DOCKER=togovar_grch38_dev_virtuoso_1

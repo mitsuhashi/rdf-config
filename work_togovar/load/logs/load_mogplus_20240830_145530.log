@@ -1,0 +1,79 @@
+PRE SETTING START: Fri Aug 30 05:55:30 UTC 2024
+PRE SETTING Finished: Fri Aug 30 05:55:30 UTC 2024
+load_rdf mogplus http://togovar.org/mogplus /rdf_data/mogplus *.jsonld
+====================================================================
+START: Fri Aug 30 05:55:30 UTC 2024
+DB: mogplus URL: 
+LOAD: /rdf_data/mogplus into http://togovar.org/mogplus
+ll_file                                                                           ll_graph                                                                          ll_state    ll_started           ll_done              ll_host     ll_work_time  ll_error
+VARCHAR NOT NULL                                                                  VARCHAR                                                                           INTEGER     TIMESTAMP            TIMESTAMP            INTEGER     INTEGER     VARCHAR
+_______________________________________________________________________________
+
+/rdf_data/mogplus/mogplus.jsonld                                                  http://togovar.org/mogplus                                                        0           NULL                 NULL                 NULL        NULL        NULL
+Finished: Fri Aug 30 05:55:30 UTC 2024
+====================================================================
+POST SETTING  START: Fri Aug 30 05:55:30 UTC 2024
+OpenLink Virtuoso Interactive SQL (Virtuoso)
+Version 07.20.3239 as of Feb 13 2024
+Type HELP; for help and EXIT; to exit.
+Connected to OpenLink Virtuoso
+Driver: 07.20.3239 OpenLink Virtuoso ODBC Driver
+
+Done. -- 1172 msec.
+OpenLink Virtuoso Interactive SQL (Virtuoso)
+Version 07.20.3239 as of Feb 13 2024
+Type HELP; for help and EXIT; to exit.
+Connected to OpenLink Virtuoso
+Driver: 07.20.3239 OpenLink Virtuoso ODBC Driver
+
+Done. -- 0 msec.
+OpenLink Virtuoso Interactive SQL (Virtuoso)
+Version 07.20.3239 as of Feb 13 2024
+Type HELP; for help and EXIT; to exit.
+Connected to OpenLink Virtuoso
+Driver: 07.20.3239 OpenLink Virtuoso ODBC Driver
+
+Done. -- 879 msec.
+OpenLink Virtuoso Interactive SQL (Virtuoso)
+Version 07.20.3239 as of Feb 13 2024
+Type HELP; for help and EXIT; to exit.
+Connected to OpenLink Virtuoso
+Driver: 07.20.3239 OpenLink Virtuoso ODBC Driver
+
+Done. -- 1 msec.
+OpenLink Virtuoso Interactive SQL (Virtuoso)
+Version 07.20.3239 as of Feb 13 2024
+Type HELP; for help and EXIT; to exit.
+Connected to OpenLink Virtuoso
+Driver: 07.20.3239 OpenLink Virtuoso ODBC Driver
+
+Done. -- 0 msec.
+OpenLink Virtuoso Interactive SQL (Virtuoso)
+Version 07.20.3239 as of Feb 13 2024
+Type HELP; for help and EXIT; to exit.
+Connected to OpenLink Virtuoso
+Driver: 07.20.3239 OpenLink Virtuoso ODBC Driver
+
+Done. -- 0 msec.
+OpenLink Virtuoso Interactive SQL (Virtuoso)
+Version 07.20.3239 as of Feb 13 2024
+Type HELP; for help and EXIT; to exit.
+Connected to OpenLink Virtuoso
+Driver: 07.20.3239 OpenLink Virtuoso ODBC Driver
+
+Done. -- 0 msec.
+OpenLink Virtuoso Interactive SQL (Virtuoso)
+Version 07.20.3239 as of Feb 13 2024
+Type HELP; for help and EXIT; to exit.
+Connected to OpenLink Virtuoso
+Driver: 07.20.3239 OpenLink Virtuoso ODBC Driver
+
+Done. -- 0 msec.
+OpenLink Virtuoso Interactive SQL (Virtuoso)
+Version 07.20.3239 as of Feb 13 2024
+Type HELP; for help and EXIT; to exit.
+Connected to OpenLink Virtuoso
+Driver: 07.20.3239 OpenLink Virtuoso ODBC Driver
+
+Done. -- 0 msec.
+POST SETTING Finished: Fri Aug 30 05:55:33 UTC 2024
